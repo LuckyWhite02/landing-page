@@ -6,6 +6,7 @@ body {
     justify-content: space-between;
 }
 
+/*Start of header */
 .header{
     background: #1F2937;
     padding-bottom: 100px;
@@ -98,10 +99,138 @@ button {
 
 
 
+/* End of header*/
+
+
+/*Start of boxes*/
+
+.information {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 35px;
+}
 
 .box {
-    background: aqua;
-    width: 100px;
-    height: 100px;
+    
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+    
+}
+
+.text{
+    color: #1F2937;
+    margin-top: 7px;
+    opacity: 85%;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+    margin: 10px;
+    
+
 
 }
+
+.one , .two , .three , .four{
+    display: flex;
+    max-width: 155px;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+/*End of boxes*/
+
+/*Start of quote*/
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 125px ;
+    margin-top: 75px;
+    justify-content: center;
+    align-items: center;
+    
+ 
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    font-style:italic;
+    color: #39414d;
+    max-width: 1000px;  
+    margin-bottom: -60px;  
+}
+
+.quoter{
+    display: flex;
+    align-self: flex-end;
+    font-size: 24px;
+    color: #1F2937;
+    font-style: normal;
+    font-weight: 900;
+    margin: 20px 65px;
+}
+
+/* End of quote*/
+
+/* Start of notification*/
+
+.notification{
+    background-color: #3882F6;
+    padding: 37px 90px 37px 90px;
+    display: flex;
+    justify-content: space-between;
+    color: #E5E7EB;
+    border-radius: 9px;
+    min-width: 700px;
+    align-self: center;
+    margin: 75px;
+}
+
+.noti{
+    display: flex;
+    flex-direction: column;
+    gap:1px;
+}
+.noti-header{
+  
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: bolder;
+
+}
+
+.noti-button{
+    align-self: flex-end;
+    padding: 5px 20px;
+    border: 2px solid #E5E7EB;
+    border-radius: 7px;
+    font-weight: 900;
+}
+
+/*End of notification*/
+
+/*Start of footer*/
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 30px;
+    color: #E5E7EB;
+
+}
+
+/*End of footer*/
