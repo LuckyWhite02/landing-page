@@ -1,9 +1,44 @@
+@font-face {
+    font-family: 'roboto';
+    src: url('./fonts/Roboto-Regular-webfont.woff') format('woff');
+       
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('./fonts/Roboto-Bold-webfont.woff') format('woff');
+       
+    font-weight: bolder;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'roboto';
+    src: url('./fonts/Roboto-LightItalic-webfont.woff') format('woff');
+       
+    font-weight: lighter;
+    font-style: italic;
+
+}
+
+
+
+
+
+
+
 body {
     display: flex;
     flex-direction: column;
     margin: 0px;
     padding: 0px;
     justify-content: space-between;
+    font-family: 'roboto';
 }
 
 /*Start of header */
@@ -12,7 +47,6 @@ body {
     padding-bottom: 100px;
     font-size: 18px;
     color: #E5E7EB ;
-    
 }
 
 .first ,.second{
@@ -32,6 +66,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 li{
@@ -40,7 +75,7 @@ li{
 a{
     text-decoration: none;
     color: #E5E7EB;
-    opacity: 90%;
+    opacity: 80%;
 
   
     
@@ -51,8 +86,7 @@ a{
     width: 500px;
     margin-right: 300px;
     justify-content: flex-end;
-   
-    
+    flex-shrink: 0;    
     
 }
 .left-side {
@@ -61,14 +95,13 @@ a{
     justify-content: flex-start;
     width: 450px;
     margin-left: 300px;
-   
+    flex-shrink: 0;
 }
 
 .hero-main{
    font-size:  48px;
-   font-weight: bolder;
    color: #F9FAF8;
-   
+   font-weight: 900;
    
 
 }
@@ -80,7 +113,7 @@ a{
 }
 p{
     color: #E5E7EB;
-    opacity: 90%;
+    opacity: 80%;
     margin-top: 4px;
 
 }
@@ -88,8 +121,8 @@ p{
 button {
     display: flex;
     padding: 4px;
-    color: #E5E7EB;
-    font-weight: bold;
+    color: #F9FAF8;
+    font-weight: bolder;
     background-color: #3882F6;
     align-self: flex-start;
     padding: 7px 22px;
@@ -108,7 +141,6 @@ button {
     display: flex;
     justify-content: center;
     font-size: 36px;
-    font-weight: 900;
     color: #1F2937;
     margin: 35px;
 }
@@ -125,7 +157,7 @@ button {
 .text{
     color: #1F2937;
     margin-top: 7px;
-    opacity: 85%;
+    opacity: 75%;
 }
 
 .content {
@@ -167,9 +199,11 @@ button {
     flex-direction: column;
     font-size: 36px;
     font-style:italic;
+    font-weight: lighter;
     color: #39414d;
     max-width: 1000px;  
-    margin-bottom: -60px;  
+    margin-bottom: -60px; 
+     
 }
 
 .quoter{
@@ -178,7 +212,6 @@ button {
     font-size: 24px;
     color: #1F2937;
     font-style: normal;
-    font-weight: 900;
     margin: 20px 65px;
 }
 
@@ -192,6 +225,7 @@ button {
     display: flex;
     justify-content: space-between;
     color: #E5E7EB;
+    font-size: 15px;
     border-radius: 9px;
     min-width: 700px;
     align-self: center;
@@ -201,22 +235,22 @@ button {
 .noti{
     display: flex;
     flex-direction: column;
-    gap:1px;
+    
 }
 .noti-header{
   
     font-size: 18px;
-    color: #E5E7EB;
-    font-weight: bolder;
+    color: #F9FAF8;
 
 }
 
 .noti-button{
     align-self: flex-end;
     padding: 5px 20px;
-    border: 2px solid #E5E7EB;
+    border: 2.5px solid #E5E7EB;
     border-radius: 7px;
     font-weight: 900;
+    color: #F9FAF8;
 }
 
 /*End of notification*/
